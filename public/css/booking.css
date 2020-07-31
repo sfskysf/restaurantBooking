@@ -1,0 +1,58 @@
+.bookingcontainer {
+    padding: 0px !important;
+    
+    background: url('images/booking/bookingbg.png') no-repeat center center fixed;
+    height: 100%;
+    width: auto;
+    /* min-height: 1109px; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ohimtired{margin-bottom: 50px;}
+
+.bookingcontainer .bookingtitle h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 3em;
+    margin: 81px;
+}
+
+.bookingcontainer .bookingnotes{
+    border-left: 1px solid #F9CF64;
+    padding-left: 116px;
+    
+}
+.bookingcontainer .bookingnotes .infonotes{
+    margin-top: 67px;
+}
+.bookingcontainer .bookingnotes p {
+    color: white;
+}
+
+.bookingcontainer .bookingnotes .restaurantinfo, .restaurantinfotype {
+    margin: 0px;
+    font-weight: 400;
+}
+
+.bookingcontainer .bookingnotes .restaurantinfo {
+    color: white !important;
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+.bookingcontainer .bookingnotes .restaurantinfotype {
+    color: #F9CF64 !important;
+    line-height: 21px;
+    font-size: 1.125em;
+}
+
+.bookingcontainer .bookingDetails {
+    max-width: 690px;
+    font-weight: 400;
+    font-size: 1.1875em;
+    line-height: 22px;
+    margin-top: 5em;
+}

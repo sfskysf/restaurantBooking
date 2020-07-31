@@ -1,0 +1,372 @@
+
+
+.main-container {
+    padding: 0px;
+}
+
+.Carousel {
+    width: 100%;
+    margin: 0px auto;
+    box-shadow: 0 2px 17.2px rgba(0, 0, 0, 0.022), 0 5px 43.4px rgba(0, 0, 0, 0.031), 0 10.3px 88.6px rgba(0, 0, 0, 0.039), 0 21.2px 182.5px rgba(0, 0, 0, 0.048), 0 58px 500px rgba(0, 0, 0, 0.07);
+}
+
+#firstcap {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+#secondcap {
+    font-size: 40px;
+}
+
+.caps {
+    margin-bottom: 200px;
+    text-shadow: 1px 0px 30px rgba(0, 0, 0, 1);
+}
+
+.carousel-caption .btn {
+    border-radius: 2px;
+    width: 300px;
+    height: 60px;
+    font-size: 22px;
+    margin-top: 20px;
+    background: transparent;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 0;
+    box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+    transition: background .8s ease;
+    text-shadow: 1px 0px 30px rgba(0, 0, 0, 1);
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: 0.4;
+    transition: 0.5s;
+}
+
+.carousel-indicators li {
+    background-color: white;
+}
+
+.carousel-indicators :active {
+    background-color: rgb(133, 130, 130);
+}
+
+.carousel img {
+    filter: brightness(70%);
+}
+
+/*----------*/
+
+.gallery-img {
+    margin-top: 20px;
+    margin-left: .599%;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 469px;
+    width: auto;
+    padding: 0px;
+    /* for the caption div*/
+}
+
+/* .gallery-img img {
+    
+    max-width: 498px;
+} */
+
+.gallery-caption {
+    color: white;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    transition: all .9s;
+    text-align: center;
+    padding: 40px;
+}
+
+.gallery-caption:hover {
+    background: transparent !important;
+}
+
+.gallery-img:hover {
+    opacity: 1;
+}
+
+.title {
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+    border: solid 2px white;
+    width: 40%;
+    height: 150px;
+    color: white;
+    border-radius: 2px;
+}
+
+/* ---------------------------- */
+
+.mainstory {
+    margin-top: 110px;
+    margin-bottom: 100px;
+    padding: 0;
+}
+
+.mainstorytext {
+    padding: 40px;
+    color: white;
+}
+
+.mainstorytext .theHeader h3, h1, h5 {}
+
+.mainstorytext .theHeader h3 {
+    /* margin-left: 208px; */
+    margin-top: 0px;
+    color: #F9CF64;
+    font-size: 1.250em;
+    font-weight: 500;
+    position: relative;
+    text-align: right;
+    right: 8%;
+    top: 16%;
+}
+
+.mainstorytext .theHeader h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-left: -36%;
+    position: relative;
+    z-index: 22;
+}
+
+.mainstorytext .theHeader h5 {
+    opacity: 0.85;
+    margin-top: 10px;
+    font-size: 1.3125em;
+    font-weight: 400;
+    margin-left: 7px;
+    color: #F9CF64;
+}
+
+.textareas {
+    background-color: #2B2B2B;
+    position: relative;
+    left: -5%;
+    z-index: 1;
+    margin-top: 118px;
+    width: 105%;
+    padding: 37px 35px 37px 37px;
+}
+
+.textareas p {
+    opacity: 0.6;
+    font-size: 16.57px !important;
+    line-height: 21px;
+    font-weight: 300 !important;
+}
+
+.textareas .secondparagraph {
+    margin-bottom: 0px;
+}
+
+.imgcont {
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.32));
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    z-index: 5;
+}
+
+.imgcont img {
+    width: 500px;
+    height: 630px;
+}
+
+.theHeader .experience {
+    background-color: #F9CF64;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    left: 6%;
+}
+
+.experience h2 {
+    font-weight: 500;
+    font-size: 1.950em;
+    margin-top: 5%;
+    opacity: 65%;
+}
+
+.experience h4 {
+    font-size: 1.3125em;
+    font-weight: 400;
+    opacity: 70%;
+    line-height: 23px;
+}
+
+/* -------------------- */
+
+#cont {
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+    margin-bottom: 150px;
+}
+
+.col-sm {
+    border: solid 0px black;
+    background-color: #2B2B2B;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.food {
+    position: absolute;
+    width: 327px;
+    height: 210px;
+    left: 650px;
+    top: 1660px;
+    background: #F9CF64;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+#ham {
+    width: 64px;
+    height: 70px;
+    color: #F9CF64;
+    position: absolute;
+    top: -50px;
+    right: 150px;
+}
+
+/* -------------------- */
+
+.restaurant-features {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.restaurant-features .why {
+    /* background-image: url("images/homepage/44.png");
+    
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; */
+    background-color: #F9CF64;
+    text-align: center;
+    max-height: 10.66em;
+    position: relative;
+    top: 70px!important;
+    /* border: 1px solid #414141; */
+}
+
+.restaurant-features .why p {
+    color: rgba(2, 0, 0, 0.69);
+    /* color: white; */
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 0px;
+    
+}
+
+.restaurant-features .features {
+    left: 2%;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.restaurant-features .features p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 33px;
+}
+
+.restaurant-features .features h2 {
+    color: rgba(255, 255, 255, 0.99) !important;
+    font-weight: 400;
+    font-size: 1.55em;
+    text-align: center;
+    margin-top: -42px
+}
+
+.restaurant-features .one, .two, .three {
+    padding: 31px;
+}
+
+.restaurant-features .one {
+    background-color: #2B2B2B;
+}
+
+.restaurant-features .two {
+    background-color: #404040;
+}
+
+.restaurant-features .three {
+    background-color: #555555;
+}
+
+.featuresbtn{
+    color: #F9CF64;
+    background-color: #414141;
+    border: 1px solid #F9CF64;
+    border-radius: 0px;
+    font-weight: 300;
+    font-size: 1em;
+    padding: 11px 22px 11px 22px;
+    margin-top: 39px;
+}
+
+.featuresicon{
+    max-height: 70px;
+    position: relative;
+    bottom: 21%;
+}
+
+/* -------------------- */
+.homepageGallery{
+    margin-bottom: 120px;
+}
+.homepageGallery .title{
+
+    color: white;
+    border: none;
+    
+
+}
+
+.homepageGallery .title h3{
+    font-size: 50px !important;
+    font-size: 400;
+}
+
+.homepageGallery .cardbody{
+
+    border: 2px solid #414141;
+}
+
+
+.homepageGallery .cardcaption{
+    background-color:#F9CF64 ;
+    color: black;
+    padding: 30px 15px 27px 15px;
+    max-width: 403px;
+}
+
+.homepageGallery .cardcaption h3{
+    text-align: center !important;
+    opacity: 75%;
+}
+
+.homepageGallery .cardcaption p{
+    opacity: 75%;
+}

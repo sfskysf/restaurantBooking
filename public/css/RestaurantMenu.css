@@ -1,0 +1,119 @@
+.mainbg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://www.wallpaperbetter.com/wallpaper/629/896/23/grilled-food-2K-wallpaper.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* width: 100%;
+    height:auto; */
+    text-align: center;
+    padding: 100px 0px;
+    color: white;
+    border-bottom: 1px solid #F9CF64;
+}
+
+.mainbg h3 {
+    font-family: 'Italianno', cursive;
+    font-size: 4em;
+    margin: 0px;
+}
+
+.mainbg hr {
+    border-color: #F9CF64;
+    margin: 24px 25%;
+}
+
+.mainbg p {
+    font-weight: 300;
+}
+
+.bannerbutton {
+    color: #F9CF64;
+    background-color: #414141;
+    border: 1px solid #F9CF64;
+    border-radius: 0px;
+    font-weight: 300;
+    font-size: 1em;
+    padding: 11px 22px 11px 22px;
+    margin-top: 39px;
+}
+
+/* -------------------- */
+
+hr {}
+
+#foottext {
+    line-height: 3.7rem;
+    font-size: 17px;
+    color: white;
+    opacity: 0.8;
+}
+
+.menu {
+    padding-left: 110px;
+    padding-top: 120px;
+    color: white;
+    margin-bottom: 120px;
+}
+
+.menutabs {
+    margin-bottom: 50px;
+}
+
+.menutabs .bannerbutton {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0px;
+    font-size: 2em;
+    color: #F9CF64;
+    font-family: 'Italianno';
+}
+
+.menutabs .active{
+    border-bottom: 2px solid #F9CF64 !important;
+
+}
+.menu h1 {
+    font-size: 65px;
+}
+
+.menu h2 {
+    font-weight: 300;
+    font-size: 2.5em;
+    margin-bottom: 4.8rem;
+    font-family: 'Italianno';
+    text-align: center;
+
+}
+
+.menu p {
+    font-size: 18px;
+    font-weight: 300;
+    opacity: .85;
+}
+
+.price {
+    font-family: 'Italianno';
+    font-size: 35px;
+    padding-left: 10px;
+    opacity: 0.7;
+}
+
+.menu .container {
+    position: absolute;
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.secondgrid {
+    margin-top: 60px;
+}
+
+#menuhr {
+    margin: 80px 600px;
+    background-color: #F9CF64;
+    
+}
